@@ -1,5 +1,5 @@
 
-html{
+body{
   font-family: “Times New Roman”, “游明朝”, “Yu Mincho”, “游明朝体”, “YuMincho”, “ヒラギノ明朝 Pro W3”, “Hiragino Mincho Pro”, “HiraMinProN-W3”, “HGS明朝E”, “ＭＳ Ｐ明朝”, “MS PMincho”, serif;
 }
 
@@ -95,13 +95,24 @@ html{
 
 .contents{
   width: 100%;
+  font-family: “Times New Roman”, “游明朝”, “Yu Mincho”, “游明朝体”, “YuMincho”, “ヒラギノ明朝 Pro W3”, “Hiragino Mincho Pro”, “HiraMinProN-W3”, “HGS明朝E”, “ＭＳ Ｐ明朝”, “MS PMincho”, serif;
+
 }
 
 .contents-menu{
   width: 100%;
+  font-family: “Times New Roman”, “游明朝”, “Yu Mincho”, “游明朝体”, “YuMincho”, “ヒラギノ明朝 Pro W3”, “Hiragino Mincho Pro”, “HiraMinProN-W3”, “HGS明朝E”, “ＭＳ Ｐ明朝”, “MS PMincho”, serif;
+
+}
+
+.contents-menu button{
+  border: 1px solid black;
+  font-family: “Times New Roman”, “游明朝”, “Yu Mincho”, “游明朝体”, “YuMincho”, “ヒラギノ明朝 Pro W3”, “Hiragino Mincho Pro”, “HiraMinProN-W3”, “HGS明朝E”, “ＭＳ Ｐ明朝”, “MS PMincho”, serif;
+
 }
 
 .contents-menu li{
+  margin-top: 100px;
   width: 100%;
   display: flex;
 }
@@ -112,4 +123,20 @@ li img{
 
 .oheya-sentence{
   width: 40%;
+}
+
+li:nth-child(even){
+  flex-flow: row-reverse;
+}
+
+.oheya-sentence{
+  margin-left: 100px;
+}
+
+.menu-sentence{
+  margin-right: 100px;
+}
+
+.onsen-sentence{
+  margin-left: 100px;
 }
