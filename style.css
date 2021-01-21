@@ -17,9 +17,10 @@ html{
   display: flex;
   justify-content: space-between;
   height: 60px;
-  background-color: blue;
-  
+  background-color: transparent;
+  position: fixed;
   z-index: 5;
+  width: 100%;
 }
 
 .menu-left{
@@ -57,7 +58,7 @@ html{
 
 
 button{
-  background-color: rgba(156, 148, 36, 0.938);
+  background-color: rgb(168, 160, 41);
   color: white;
   display: flex;
   height: 40px;
@@ -80,15 +81,31 @@ button p{
   line-height: 40px;
 }
 
-/* ここまでメニューヘッダー */
 
-.river{
-  
-}
 
+/* 説明 */
 
 .sentence img{
   height: 500px;
   width: 100%;
   line-height: 60px;
+}
+
+/* コンテンツ */
+
+.contents{
+  width: 100%;
+}
+
+.contents-menu{
+  width: 100%;
+}
+
+.contents-menu li{
+  width: 100%;
+  display: flex;
+}
+
+li img{
+  width: 60%;
 }
