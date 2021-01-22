@@ -220,9 +220,45 @@ li:nth-child(even){
 }
 
 .info-tab{
-  
   display: flex;
   width: 150px;
   margin: 0 auto;
   justify-content: space-between;
+}
+
+.sales{
+  width: 60%;
+  background-color: aqua;
+  height: 330px;
+  margin: 15px auto 0;
+}
+
+.sale1{
+  width: 100%;
+  height: 100px;
+  margin-bottom: 15px;
+}
+
+.sale2{
+  width: 100%;
+  height: 100px;
+  margin-bottom: 15px;
+}
+
+.sale3{
+  width: 100%;
+  height: 100px;
+}
+
+.sales ul{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+
+.sales li{
+  width: 48%;
+  height: 100px;
+  background-color: rgb(246, 246, 246);
 }
