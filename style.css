@@ -118,11 +118,11 @@ body{
 }
 
 li img{
-  width: 60%;
+  width:55%;
 }
 
 .oheya-sentence{
-  width: 40%;
+  width: 45%;
 }
 
 li:nth-child(even){
@@ -151,4 +151,78 @@ li:nth-child(even){
 .contents-menu p{
   margin-bottom: 40px;
   font-size: 15px;
+}
+
+/* 宿泊プラン */
+
+.plan-wrapper{
+  background-image: url("img/bg02.jpg");
+  height: 600px;
+  background-position: 0% 30%;
+  margin-top: 60px;
+  width: 100%;
+}
+
+.theme {
+  text-align: center;
+
+}
+
+.theme h1{
+  font-weight: lighter;
+  font-size: 35px;
+}
+
+.theme img{
+  margin: 30px 0 10px 0;
+}
+
+.plans{
+  width: 70%;
+  height: 380px;
+  margin: 25px auto 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.plans li{
+  width: 28%;
+  height: 100%;
+  
+}
+
+.plans li img{
+  width: 100%;
+}
+
+.plans h3{
+  font-family: “Times New Roman”, “游明朝”, “Yu Mincho”, “游明朝体”, “YuMincho”, “ヒラギノ明朝 Pro W3”, “Hiragino Mincho Pro”, “HiraMinProN-W3”, “HGS明朝E”, “ＭＳ Ｐ明朝”, “MS PMincho”, serif;
+  margin-top: 20px;
+  font-weight: lighter;
+}
+
+.plans p{
+  font-family: “Times New Roman”, “游明朝”, “Yu Mincho”, “游明朝体”, “YuMincho”, “ヒラギノ明朝 Pro W3”, “Hiragino Mincho Pro”, “HiraMinProN-W3”, “HGS明朝E”, “ＭＳ Ｐ明朝”, “MS PMincho”, serif;
+  margin-top: 20px;
+  line-height: 28px;
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+.infomation-wrapper{
+
+  height: 600px;
+  width: 100%;
+}
+
+.infomation-wrapper h1{
+  margin-bottom: 20px;
+}
+
+.info-tab{
+  
+  display: flex;
+  width: 150px;
+  margin: 0 auto;
+  justify-content: space-between;
 }
