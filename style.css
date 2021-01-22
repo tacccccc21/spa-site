@@ -209,6 +209,8 @@ li:nth-child(even){
   font-weight: lighter;
 }
 
+/* お知らせ */
+
 .infomation-wrapper{
 
   height: 600px;
@@ -227,7 +229,7 @@ li:nth-child(even){
 }
 
 .sales{
-  width: 60%;
+  width: 900px;
   background-color: aqua;
   height: 330px;
   margin: 15px auto 0;
