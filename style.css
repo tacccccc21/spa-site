@@ -88,10 +88,16 @@ body{
 .sentence{
   height: 600px;
   width: 100%;
-  line-height: 60px;
   background-image: url("img/bg.jpg");
+}
+
+.sentence-wrapper{
   display: flex;
   flex-direction: row-reverse;
+  width: 800px;
+  height: 100%;
+
+  margin: 0 auto;
 }
 
 .sentence h1{
@@ -99,10 +105,16 @@ body{
   -ms-writing-mode: tb-rl;
   writing-mode: vertical-rl;
   font-weight: lighter;
+  letter-spacing: .3em;
 }
 
 .onkai{
-  margin-right: 80px;
+  /* margin-right: 200px; */
+  margin-top: 67px;
+}
+
+.beautiful{
+  margin-top: 150px;
 }
 
 .sentence-title{
@@ -128,7 +140,14 @@ body{
   writing-mode: vertical-rl;
   line-height: 40px;
   flex-direction: row-reverse;
-  
+}
+
+.sentence h2{
+  writing-mode: vertical-rl;
+  font-weight: lighter;
+  margin-top: 340px;
+  margin-right: 70px;
+  letter-spacing: .3em;
 }
 
 /* コンテンツ */
