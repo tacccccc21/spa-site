@@ -5,9 +5,11 @@
   <meta name=”description” content=”日本古来の素材と現代的表現を併せ持つ温泉旅館、石井花壇。伝統的「和」の息づく空間で、至極のひとときをお過ごしください。”>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="img/logo02.png" sizes="16x16" type="image/png" /> 
+  
   <link rel="stylesheet" href="reset.css">
   <link rel="stylesheet" href="style.css">
   <title>石井花壇｜温海温泉旅館【公式サイト】</title>
+  <script   src="https://code.jquery.com/jquery-3.1.1.js" ></script>
   </head>
 
   <body>
@@ -25,10 +27,22 @@
               <li><a href="#">温泉</a></li>
             </ul>
           </div>
-          <button class="reserve-button">
+          <div class="reserve-button">
             <img src="img/calender.png" alt="calender"　height="15" width="15" >
             <p>宿泊予約</p>
-          </button>
+          </div>
+
+          <!-- 予約もーだる -->
+          <div class="modal">
+            <div class="modal_bg"></div>
+            <div class="modal_window">
+              <h3>modal</h3>
+              <div class="close">close</div>
+            </div>
+          </div>
+          <!-- // -->
+
+
         </div>
         <div class="river">
           <img  src="img/mainbg01.jpg" alt="river" width="100%" >
@@ -183,5 +197,6 @@
       </div>
 
     </div>
+    <script type="text/javascript" src="spa.js"></script>
   </body>
 </html>
