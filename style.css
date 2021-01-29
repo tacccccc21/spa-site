@@ -94,6 +94,13 @@ body{
     display: none;
   }
 
+  .modal_wrapper{
+    width: 80%;
+    height: 100%;
+    background-color: aquamarine;
+    margin: 0 auto;
+  }
+
   .modal_bg{
     background-color: rgba(0 ,0, 0, 0.6);
     width: 100%;
