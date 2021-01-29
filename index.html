@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="style.css">
   <title>石井花壇｜温海温泉旅館【公式サイト】</title>
   <script   src="https://code.jquery.com/jquery-3.1.1.js" ></script>
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
   </head>
 
   <body>
@@ -38,6 +39,30 @@
             <div class="modal_window">
               <div class="modal_wrapper">
                 <h3>宿泊予約</h3>
+                <dl class="reserve_input">
+                  <dt><label for="name">お名前</label></dt>
+                  <dd><input type="text" name="name" id="name" placeholder="例：石井正悟"></dd>
+                  <dt><label for="e-mail">メールアドレス</label></dt>
+                  <dd><input type="email" name="email" id="email" placeholder="例：Example@example.com"></dd>
+                  <dt><dt>ご希望プラン（空いているプランのみ表示されます）</dt></dt>
+                  <dd><div class="plan-select">
+                    <select name="required" class="required">
+                      <optgroup label>
+                        <option value="" hidden="">プランを選択してください</option>
+                        <option value="1">【期間限定】海辺の四季旬彩、贅沢美味懐石プラン</option>
+                        <option value="2">平日に優雅に楽しむ、特別宿泊プラン</option>
+                        <option value="3">絶景貸切露天と個室会席を満喫できるファミリープラン</option>
+                      </optgroup>
+                    </select>
+                  </div></dd>
+                  <dt>日時選択</dt>
+                  <dd>
+                    <div class="calendar">
+                    <input class="flatpickr flatpickr-input active" id="flatpickr" type="text" placeholder="日時を選択してください" readonly="readonly">
+                  </div>
+                
+                </dd>
+                </dl>
                 <div class="close">close</div>
               </div>
             </div>

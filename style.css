@@ -122,8 +122,17 @@ body{
   .close{
     width: 100px;
     height: 50px;
+    margin: 500px auto 0;
     background-color: black;
+    cursor: pointer;
   }
+
+  .reserve_input{
+    height: 300px;
+    width: 100%;
+    background-color: beige;
+  }
+
 
 /* 説明 */
 
