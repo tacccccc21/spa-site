@@ -13,10 +13,12 @@ $(function(){
 
   // スライダースリック
   $('.slider').slick({
-    dots: true,
+    autoplay: true,
     infinite: true,
-    speed: 500,
+    speed: 2000,
     fade: true,
-    cssEase: 'linear'
+    cssEase: 'linear',
+    
   });
+
 });
