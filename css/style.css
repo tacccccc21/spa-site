@@ -476,3 +476,12 @@ h5{
   height: 500px;
   width: 100%;
 }
+
+.under-menu{
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  padding-top: 30px;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+}
