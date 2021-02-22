@@ -432,3 +432,47 @@ li img{
   height: 80px;
   margin: 10px 10px 10px 0;
 }
+
+/* アクセス */
+.access-wrapper{
+  background-image: url("../img/bg.jpg");
+  height: 1050px;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.access-info{
+  width: 900px;
+  height: 300px;
+  
+  margin: 0 auto;
+  display: flex;
+}
+
+h5{
+  font-family: “Times New Roman”, “游明朝”, “Yu Mincho”, “游明朝体”, “YuMincho”, “ヒラギノ明朝 Pro W3”, “Hiragino Mincho Pro”, “HiraMinProN-W3”, “HGS明朝E”, “ＭＳ Ｐ明朝”, “MS PMincho”, serif;
+}
+
+.access-info p{
+  font-family: “Times New Roman”, “游明朝”, “Yu Mincho”, “游明朝体”, “YuMincho”, “ヒラギノ明朝 Pro W3”, “Hiragino Mincho Pro”, “HiraMinProN-W3”, “HGS明朝E”, “ＭＳ Ｐ明朝”, “MS PMincho”, serif;
+  font-size: 12px;
+  margin: 10px 0 10px 0;
+}
+
+.access-sen{
+  margin: 20px 0 0 30px;
+}
+
+.access-map{
+  margin: 60px auto 0;
+  width: 600px;
+}
+
+
+/* 下メニュー */
+.under-info{
+  background-image: url("../img/bg3.jpg");
+  background-position: center;
+  height: 500px;
+  width: 100%;
+}
